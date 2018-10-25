@@ -1,0 +1,17 @@
+SELECT First_Name
+FROM Children;
+
+SELECT Presence
+FROM Attend;
+
+SELECT Half_or_Whole_Day
+FROM Session;
+
+SELECT Date
+FROM Drop-off_and_Receive;
+
+SELECT Family_Type
+FROM Gaurdian;
+
+SELECT Amount
+FROM Paid;
