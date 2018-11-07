@@ -15,8 +15,8 @@
   	<h2>Students Information</h2>
   </div>
 	
-  <form method="post" action="register.html">
-  	<?php include('errors.html'); ?>
+  <form method="post" action="register.php">
+  	
   	<div class="input-group">
   	  <label>First Name</label><input type="text" name="FirstName" > 
   	</div>
@@ -104,8 +104,8 @@ Date of Birth:
 <div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">SUBMIT</button>
   	</div>
-	<a href="parentinfo.html">Previous page</a><br>
-	 Do you want to logout? <a href="register.html">logout</a>
+	<a href="parentinfo.php">Previous page</a><br>
+	 Do you want to logout? <a href="register.php">logout</a>
 	</form>
 </body>
 

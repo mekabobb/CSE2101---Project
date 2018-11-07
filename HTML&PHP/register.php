@@ -1,4 +1,4 @@
-<?php include('server.html') ?>
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,8 +10,8 @@
   	<h2>Register</h2>
   </div>
 	
-  <form method="post" action="register.html">
-  	<?php include('errors.html'); ?>
+  <form method="post" action="register.php">
+  	<?php include('errors.php'); ?>
   	<div class="input-group">
   	  <label>Username</label>
   	  <input type="text" name="username" value="<?php echo $username; ?>">
@@ -32,7 +32,7 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
   	<p>
-  		Already a member? <a href="login.html">Sign in</a>
+  		Already a member? <a href="login.php">Sign in</a>
   	</p>
   </form>
 </body>
